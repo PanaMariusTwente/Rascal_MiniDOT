@@ -1,0 +1,11 @@
+// Hello!
+strict digraph example_graph {
+    // Statement declaration
+    A [color=blue, label=first_node]; // inline comment
+    // 
+    C -> D [label=C_D_connection, color=red];
+    B [label=second_node];
+    C -> B;
+    C -> D [color=blue];
+    F;
+}
